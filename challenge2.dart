@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('Masukan suhu dalam Fahrenheit: ');
+  stdout.write('Masukan suhu dalam Fahrenheit: ');
   String? inputFahrenheit = stdin.readLineSync();
 
   if (inputFahrenheit != null) {
